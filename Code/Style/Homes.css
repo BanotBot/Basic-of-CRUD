@@ -1,0 +1,134 @@
+body{
+  background-color: #aca6a5;
+}
+
+nav {
+  position: relative;
+}
+   
+/* Heading title  */
+
+.heading {
+  text-align: center;
+  font-size: 1.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 40px ;
+  padding-bottom: 50px;
+}
+
+
+/* Image content  */
+
+.card-container{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  gap:10px ;
+  margin-top: 50px;
+}
+
+.card-container img {
+ width: 320px;
+ height:350px;
+ border: 1px solid #000;
+ z-index: -1;
+}
+
+/* Button Style  */
+.caption-container{
+  display: flex;
+  justify-content: center;
+  gap: 14.2rem;
+  
+}
+
+.button-1 button , .button-2  button , .button-3 button , .button-4 button {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+  height: 3rem;
+  font-size: 2.0rem;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: transparent;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* Navigation bar */
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  line-height: normal;
+ }
+ 
+.nav-container img {
+  width: 30px ;
+  height:30px;
+  margin: 10px;
+}
+
+.nav-container img:hover , 
+.nav-container img :focus{
+  background-color:#E2DAD8;
+  border-radius: 10px;
+}
+
+/* Drop down Menu  */
+.drop-down-container{
+  position: relative;
+  display:inline-block;
+}
+
+.menu {
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: var(--gap);
+  padding: 0.5rem;
+  cursor: pointer;
+  position: relative;
+}
+
+/*  Library icon style  */
+.bx{
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.drop-down {
+  display: none;   /* use for the default not showing */
+  position: absolute;
+  padding-top:15px ;
+  top: 2.8rem;
+  right: 1.2rem;
+  min-width: 165px;
+  background-color: rgb(151, 147, 147);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3;
+  animation-delay: 0.5s;
+  border-radius: 5px;
+}
+
+.drop-down a {
+  display: flex;  /* use for the display of the drop down to make this vertical alignment  */
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  padding: 0.9rem 1.5rem ;
+  color: #000;
+}
+
+.drop-down a:hover{
+  color: white;
+}
+
+/*  Use to show in the drop down , this is use in the js function for toggling  */
+.show{
+  display: flow-root;
+}
+

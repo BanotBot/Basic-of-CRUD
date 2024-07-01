@@ -1,0 +1,48 @@
+if(school.value === " "){
+    school.reset();
+    document.getElementById('school-year').value = location.reload();
+    alert("Please fill out all the required fields");
+    return false;
+  }else if(id.value === " "){
+    id.reset();
+    document.getElementById('id-no').value = location.reload();
+    alert("Please fill out all the required fields");
+    return false;
+  }else if(lastname.value === " "){
+    lastname.reset();
+    document.getElementById('lastname').value = location.reload();
+    alert("Please fill out all the required fields");
+    return false;
+  }else if(firstnames.value === " "){
+    firstnames.reset();
+    document.getElementById('firstname').value = location.reload();
+    alert("Please fill out all the required fields");
+    return false;
+  }else if(middlename.value === " "){
+    middlename.reset();
+    document.getElementById('middlename').value = location.reload();
+    alert("Please fill out all the required fields");
+    return false;
+  }else if(sem.value === " "){
+    sem.reset();
+    document.getElementById('sem').value = location.reload();
+    alert("Please fill out all the required fields");
+    return false;
+  }else if(contact.value === " "){
+    contact.reset();
+    document.getElementById('contact').value = location.reload();
+    alert("Please fill out all the required fields");
+    return false;
+  }else if(year.value === " "){
+    year.reset();
+    document.getElementById('year-level').value = location.reload();
+    alert("Please fill out all the required fields");
+    return false; 
+  }else if(section.value === " "){
+    section.reset();
+    document.getElementById('section').value = location.reload();
+    alert("Please fill out all the required fields");
+    return false;
+  }    
+
+  

@@ -1,0 +1,80 @@
+  body{
+    background:url('../Image/delete.png') no-repeat;
+    background-size:contain;
+    background-position:center right 120px;
+    background-position-y:50px;
+    background-color:#C9C6C5 ;
+    padding:50px;
+    top:50px;
+  }
+
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-align:left;
+    font-size:1.4rem;
+    padding:90px 0px;
+    top:254px;
+  }
+
+  legend{
+    margin:40px 50px 90px 50px ;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:3em;
+    font-weight:bold;
+  }
+
+  img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5%;
+    border-radius: 20px;
+  }
+
+  input {
+    padding: 10px 30px;
+    margin: 30px 10px 10px 60px;
+    position: absolute;
+  }
+
+  .container-button{
+    position:absolute;
+    display:flex;
+    margin:25% 10px 10px 30vw;
+  }
+
+  button{
+    padding: 10px 30px;
+    font-size:1.1em ;
+    border-radius: 10px;
+    border: 1px solid #000;
+    justify-items: center;
+    margin-left: 30px;
+  }
+
+  button a{
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .Swal-fire{
+    background-color: #C9C6C5;
+  }
+
+  .swal2-title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    color: #575656;
+    margin-top: 10px;
+  }
+
+  .Swal-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #575656;
+    margin-top: 10px;
+  }
+  

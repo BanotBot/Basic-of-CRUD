@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+<script>
+  /*
+    let  text = 'hello world';
+  let text2 = text.slice(0,1);
+  let text3 = text.charAt(-1);
+  let sub = text.substring(1);
+  console.log(text2);
+  console.log(text3);
+  console.log(sub);
+*/
+
+  let  text = 'hello world';
+  let substr = text.substr(3,5);// apilon niya pagkuha ang kong unsa gyud na value ang sa kana na index // output : lo wo 
+  let substring = text.substring(3,5);//dili niya apilon pagkuha ang last index      // output : lo      
+
+  console.log(substr);
+  console.log(substring);
+
+  /*
+
+  const mySentence = "freeCodeCamp is an awesome resource";
+const words = mySentence.split(" ");
+
+  words.map((word) => { 
+   return word[0].toUpperCase() + word.substring(1); 
+}).join(" ");
+
+*/
+
+
+const mySentence = "freeCodeCamp is an awesome resource";
+const words = mySentence.split(" ");
+
+for (let i = 0; i < words.length; i++) {
+    words[i] = words[i][0].toUpperCase() + words[i].substr(1);
+}
+
+console.log(words.join(" "));
+
+
+let num = '123';
+let check = Number.isInteger(num);
+console.log(check);
+
+
+let string = 'Hello';
+let convert = string.toString();
+if(convert.length != 11 ){
+  console.log('invalid ');
+}else{
+  console.log('correct');
+}
+</script>

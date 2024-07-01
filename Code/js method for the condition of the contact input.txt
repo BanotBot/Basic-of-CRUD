@@ -1,0 +1,16 @@
+
+  /*
+  function contact_validations(){
+    let contact = document.getElementById("Contact").value;
+       contact = contact.toString();
+
+    if(contact.length != 10){
+      alert(' Invalid Number ');
+      document.getElementById("Contact").value = "";
+      return false;
+    }else{
+      return true;
+    }
+  }
+
+  */
